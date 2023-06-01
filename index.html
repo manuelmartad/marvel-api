@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Marvel API</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+    <style>
+      body {
+        background-color: #e9ebff;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row px-1">
+        <div class="col-md-5 col-sm-12">
+          <h1 class="pt-5">Universo de Marvel</h1>
+          <p>
+            Escribe el nombre de tu personaje favorito del universo marvel para
+            obtener toda la información relacionada con el mismo.
+          </p>
+          <div class="card shadow">
+            <div class="card-body">
+              <form action="" id="formulario">
+                <div class="mb-3">
+                  <label for="personaje" class="form-label fw-bold"
+                    >Nombre del Personaje</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="personaje"
+                    id="personaje"
+                    placeholder=""
+                  />
+                </div>
+                <button class="btn btn-primary rounded-0 w-100">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-12">
+          <div id="resultado" class="pt-5 ps-md-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
